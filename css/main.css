@@ -1,12 +1,18 @@
+
+/************genera*************
+******/
+
 a {
 	text-decoration: none;
 	color:white;
+
 }
 #wrapper {
 	max-width:940px;
 	margin:0 auto;
 	padding: 0 5%;
 	background: gray;
+	/***********heading**********/
 }
 
 #logo{
@@ -18,7 +24,26 @@ header{
 background: #9FA838;
 border-color: #599a68;
 }
+/***************navigation*********/
+h1 { 
 
-h1, h2 {
-	color: #F5FBA8;
+font-family: 'Titillium Web', sans-serif;
+margin: 15px 0; /*margen de arriba y abajo 15px y lados sin margen*/
+font-size: 3em;
+font-weight: normal;
+line-height: 0.8em:
+color: FFA459;
+
+
 }
+/*********margen de aariba y abajo 15px y a los lados sin margen****/
+ h2 {
+ 	font-size:  0.75em;
+ 	margin: -5px 0 0;
+	color: #F5FBA8;
+	font-weight: none;
+}
+nav a.selected { 
+color: #801515; }
+
+nav a:hover { color:#A39C52 ;}
